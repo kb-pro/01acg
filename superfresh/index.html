@@ -322,26 +322,26 @@ http://www.templatemo.com/free-website-templates/
       <div class="col-md-12 col-sm-12">
         <h2>For more information</h2>
       </div>
-      <form action="#" method="post">
+      <form method="post" name = "sendmail" onsubmit="return false">
         <div class="col-md-1 col-sm-1"></div>
         <div class="col-md-10 col-sm-10">
           <div class="col-md-6 col-sm-6">
-            <input type="text" placeholder="Name" class="form-control">
+            <input type="text" name = "name" placeholder="Name" class="form-control">
           </div>
           <div class="col-md-6 col-sm-6">
-            <input type="email" placeholder="Email" class="form-control">
+            <input type="email" name = "email" placeholder="Email" class="form-control">
           </div>
           <div class="col-md-12 col-sm-12">
-            <textarea placeholder="Message" class="form-control" rows="5"></textarea>
+            <textarea placeholder="Message" name = "message" class="form-control" rows="5"></textarea>
           </div>
           <div class="col-md-12 col-sm-12">
-            <input type="text" placeholder="Subject" class="form-control">
+            <input type="text" name = "tel" placeholder="Mobile No." class="form-control">
           </div>
           <div class="col-md-8 col-sm-8">
             <p>Please do not hesitage to request more information. We kindly advise and find the best answer for FREE!</p>
           </div>
           <div class="col-md-4 col-sm-4">
-            <input type="submit" value="SEND MESSAGE" class="form-control">
+            <input type="submit" value="SEND MESSAGE" class="form-control " onclick ="sendEmail()">
           </div>
         </div>
         <div class="col-md-1 col-sm-1"></div>
@@ -416,5 +416,6 @@ http://www.templatemo.com/free-website-templates/
 <script src="js/imagesloaded.min.js"></script> 
 <script src="js/custom.js"></script>
 <script src="js/ggmap.js"></script>
+<script src="js/email.js"></script>
 </body>
 </html>
