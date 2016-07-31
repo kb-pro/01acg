@@ -42,8 +42,18 @@ img:hover {
 	box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
 	margin: 0 !important;
 }
+.navbar-default .navbar-branden {
+	background: #ffffff;
+	color: #ff3000;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 50px;
+	height: 90px;
+	margin: 0;
+	padding: 20px 20px 40px 20px;
+}
 .navbar-default .navbar-brand {
-	background: #dc5034;
+	background: #ab0101;
 	color: #fff;
 	font-weight: bold;
 	font-size: 26px;
@@ -51,6 +61,9 @@ img:hover {
 	height: 90px;
 	margin: 0;
 	padding: 20px 20px 40px 20px;
+}
+.navbar-default .navbar-branden:hover {
+	background: #f2af00;
 }
 .navbar-default .navbar-brand:hover {
 	background: #f2af00;
@@ -83,7 +96,7 @@ img:hover {
 }
 /* home section */
 #home {
-	background: url('../images/CoverEng.jpg')no-repeat;
+	background: url('../images/home-bg.jpg')no-repeat;
 	background-size: cover;
 	background-position: center;
 	min-height: 600px;
